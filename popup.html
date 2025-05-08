@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu Popup</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <input type="checkbox" id="popup-toggle" hidden />
+
+  <label for="popup-toggle" class="overlay"></label>
+
+  <!-- popup تبدیل شده به label -->
+  <label for="popup-toggle" class="popup">
+    <div class="popup-content">
+      <h2>Select a City</h2>
+      <ul class="menu-list">
+        <li>Tehran</li>
+        <li>Shiraz</li>
+        <li>Mashhad</li>
+        <li>Tabriz</li>
+        <li>Bandar Abbas</li>
+      </ul>
+    </div>
+  </label>
+
+  <!-- دکمه منو -->
+  <label for="popup-toggle" class="start-button">Menu</label>
+</body>
+</html>
